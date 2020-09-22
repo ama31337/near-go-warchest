@@ -4,7 +4,7 @@ RUN apt-get update -y && apt-get install -y wget libcurl4-openssl-dev libusb-1.0
 
 SHELL ["/bin/bash", "--login", "-c"]
 
-ENV NODE_ENV="betanet"
+ENV NODE_ENV="guildnet"
 
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION 14.0.0

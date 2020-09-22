@@ -30,7 +30,7 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	url := flag.String("url", "https://rpc.betanet.near.org", "Near JSON-RPC URL")
+	url := flag.String("url", "https://rpc.openshards.io", "Near JSON-RPC URL")
 	addr := flag.String("addr", ":9444", "listen address")
 	poolId := flag.String("accountId", "test", "Validator pool account id")
 	flag.Var(&delegatorIds, "delegatorId", "Delegator ids.")
