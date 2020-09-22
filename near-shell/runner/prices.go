@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/rozum-dev/near-go-warchest/common"
-	cmd "github.com/rozum-dev/near-go-warchest/helpers"
+	"github.com/ama31337/near-go-warchest/common"
+	cmd "github.com/ama31337/near-go-warchest/helpers"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

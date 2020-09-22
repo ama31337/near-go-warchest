@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	// "log"
-	"github.com/rozum-dev/near-go-warchest/common"
-	cmd "github.com/rozum-dev/near-go-warchest/helpers"
+	"github.com/ama31337/near-go-warchest/common"
+	cmd "github.com/ama31337/near-go-warchest/helpers"
 )
 
 func getDelegatorStakedBalance(ctx context.Context, poolId, delegatorId string) (int, error) {

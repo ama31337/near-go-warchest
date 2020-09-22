@@ -22,7 +22,7 @@ sudo apt install docker.io
 ### Docker
 
 ```
-git clone https://github.com/rozum-dev/near-go-warchest
+git clone https://github.com/ama31337/near-go-warchest
 
 cd near-go-warchest
 
@@ -48,7 +48,7 @@ You have to install [Near Shell](https://github.com/near/near-shell/).
 
 Make sure you have a keys of your delegator account at `$HOME/.near-credential`.
 
-    git clone https://github.com/rozum-dev/near-go-warchest
+    git clone https://github.com/ama31337/near-go-warchest
 
     cd near-go-warchest
 

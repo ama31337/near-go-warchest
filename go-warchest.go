@@ -5,11 +5,11 @@ import (
 	"flag"
 	"log"
 
-	"github.com/rozum-dev/near-go-warchest/common"
-	"github.com/rozum-dev/near-go-warchest/near-shell/runner"
-	"github.com/rozum-dev/near-go-warchest/rpc"
-	nearapi "github.com/rozum-dev/near-go-warchest/rpc/client"
-	prom "github.com/rozum-dev/near-go-warchest/services/prometheus"
+	"github.com/ama31337/near-go-warchest/common"
+	"github.com/ama31337/near-go-warchest/near-shell/runner"
+	"github.com/ama31337/near-go-warchest/rpc"
+	nearapi "github.com/ama31337/near-go-warchest/rpc/client"
+	prom "github.com/ama31337/near-go-warchest/services/prometheus"
 )
 
 type arrayFlags []string

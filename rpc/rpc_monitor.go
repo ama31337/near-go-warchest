@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/rozum-dev/near-go-warchest/common"
-	nearapi "github.com/rozum-dev/near-go-warchest/rpc/client"
-	prom "github.com/rozum-dev/near-go-warchest/services/prometheus"
+	"github.com/ama31337/near-go-warchest/common"
+	nearapi "github.com/ama31337/near-go-warchest/rpc/client"
+	prom "github.com/ama31337/near-go-warchest/services/prometheus"
 )
 
 var (

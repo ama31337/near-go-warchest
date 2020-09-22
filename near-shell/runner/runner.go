@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rozum-dev/near-go-warchest/common"
-	cmd "github.com/rozum-dev/near-go-warchest/helpers"
-	"github.com/rozum-dev/near-go-warchest/rpc"
-	prom "github.com/rozum-dev/near-go-warchest/services/prometheus"
+	"github.com/ama31337/near-go-warchest/common"
+	cmd "github.com/ama31337/near-go-warchest/helpers"
+	"github.com/ama31337/near-go-warchest/rpc"
+	prom "github.com/ama31337/near-go-warchest/services/prometheus"
 )
 
 type Runner struct {
