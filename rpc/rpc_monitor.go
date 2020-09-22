@@ -66,6 +66,8 @@ func (m *Monitor) Run(ctx context.Context, result chan *SubscrResult, sem common
 				epochLength = 43200
 			case "mainnet":
 				epochLength = 43200
+			case "guildnet":
+				epochLength = 43200
 			}
 
 			blockHeight := sr.Status.SyncInfo.LatestBlockHeight
